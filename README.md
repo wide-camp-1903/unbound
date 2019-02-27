@@ -2,6 +2,7 @@
 - https://hub.docker.com/r/widecamp1903/kea-dhcp
 - M-Rootだけに問い合わせるようにしたかったけどUnboundが何故かroot.hintsを読み込んでくれないのであきらめた
 - *.noc.wide.campのローカルゾーンを解決
+- mgmtとinternal-serverの両方に足を出す
 
 ## ESXi側
 - `/etc/netplan/50-cloud-init.yaml` を編集してアドレスを固定
