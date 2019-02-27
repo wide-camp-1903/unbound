@@ -1,11 +1,13 @@
-interface = ens160
+vlan4000 = ens192
+vlan4000 = ens160
 
 .PHONY: default
 default: run log
 
 .PHONY: init
 init: clean
-	docker network create --driver bridge -o parent=$(interface) vlan4020
+	docker network create --driver bridge -o parent=$(vlan4000) vlan4000
+	docker network create --driver bridge -o parent=$(vlan4020) vlan4020
 	docker-compose build
 
 .PHONY: run
@@ -20,3 +22,5 @@ log:
 clean:
 	docker-compose kill
 	docker-compose rm -f
+	docker network rm vlan4000 || true
+	docker network rm vlan4020 || true

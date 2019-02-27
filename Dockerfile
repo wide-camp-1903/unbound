@@ -11,6 +11,7 @@ RUN apt-get update && \
         /etc/apt/apt.conf.d/docker-gzip-indexes
 
 COPY ./init.sh /sbin/init.sh
+COPY ./unbound/root.hints /etc/unbound/root.hints
 RUN chmod 700 /sbin/init.sh
 
 EXPOSE 53/tcp 53/udp
