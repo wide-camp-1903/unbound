@@ -1,5 +1,5 @@
 vlan4000 = ens192
-vlan4000 = ens160
+vlan4020 = ens160
 
 .PHONY: default
 default: run log
