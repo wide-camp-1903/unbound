@@ -1,0 +1,21 @@
+local-zone: "noc.wide.camp" static
+
+## assigned to physical server
+local-data: "hvs01.noc.wide.camp A 10.0.1.1"
+local-data: "hvs02.noc.wide.camp A 10.0.1.2"
+local-data: "hvs03.noc.wide.camp A 10.0.1.3"
+local-data: "hvs04.noc.wide.camp A 10.0.1.4"
+local-data: "hvs05.noc.wide.camp A 10.0.1.5"
+local-data: "hvr01.noc.wide.camp A 10.0.1.6"
+
+## assigned to physical/virtual network device
+local-data: "sw-eps.noc.wide.camp A 10.0.1.10"
+local-data: "sw-noc-1.noc.wide.camp A 10.0.1.11"
+local-data: "sw-eside.noc.wide.camp A 10.0.1.12"
+local-data: "vsrx.noc.wide.camp A 10.0.1.13"
+
+## assigned to service
+local-data: "vcenter.noc.wide.camp A 10.0.1.101"
+local-data: "log-insight.noc.wide.camp A 10.0.6.1"
+local-data: "netflow.noc.wide.camp A 10.0.6.2"
+local-data: "op-manager.noc.wide.camp A 10.0.6.3"
