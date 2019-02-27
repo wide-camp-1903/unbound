@@ -1,5 +1,5 @@
 # unbound
-- https://hub.docker.com/r/widecamp1903/kea-dhcp
+- https://hub.docker.com/r/widecamp1903/unbound
 - M-Rootだけに問い合わせるようにしたかったけどUnboundが何故かroot.hintsを読み込んでくれないのであきらめた
 - *.noc.wide.campのローカルゾーンを解決
 - mgmtとinternal-serverの両方に足を出す
