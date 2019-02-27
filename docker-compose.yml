@@ -2,8 +2,8 @@ version: '3'
 
 services:
   dns-mgmt:
-    build: .
-    #image: widecamp1903/unbound
+    # build: .
+    image: widecamp1903/unbound
     container_name: dns-mgmt
     restart: unless-stopped
     ports:
@@ -16,8 +16,8 @@ services:
       mgmt:
 
   dns-internal-server:
-    build: .
-    #image: widecamp1903/unbound
+    # build: .
+    image: widecamp1903/unbound
     container_name: dns-internal-server
     restart: unless-stopped
     ports:
