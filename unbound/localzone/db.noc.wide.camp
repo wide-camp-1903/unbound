@@ -13,6 +13,7 @@ local-data: "sw-eps.noc.wide.camp A 10.0.1.10"
 local-data: "sw-noc-1.noc.wide.camp A 10.0.1.11"
 local-data: "sw-eside.noc.wide.camp A 10.0.1.12"
 local-data: "vsrx.noc.wide.camp A 10.0.1.13"
+local-data: "cisco1.noc.wide.camp A 10.0.1.14"
 
 ## assigned to service
 local-data: "vcenter.noc.wide.camp A 10.0.1.101"
